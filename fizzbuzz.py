@@ -48,10 +48,10 @@ num = int(input("How many numbers shall we print? "))
 x = int(input("For multiples of which number shall we print 'Fizz'? "))
 y = int(input("For multiples of which number shall we print 'Buzz'? "))
 for w in range(1, num+1):
-    if (num%x == 0):
+    if (x%num == 0):
         print("Fizz")
-    if (num%y == 0):
+    elif (y%num == 0):
         print("Buzz")
-    if (num%y > 0 and num%x > 0):
-        print(w)
+    elif (x%num==0 and y%num==0):
+        print("FizzBuzz")
     
