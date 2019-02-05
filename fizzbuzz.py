@@ -44,3 +44,6 @@ Fizz
 Fizz
 Buzz
 """
+num = int(input("How many numbers shall we print? ")
+x = int(input("For multiples of which number shall we print 'Fizz'? ")
+y = int(input("For multiples of which number shall we print 'Buzz'? ")
