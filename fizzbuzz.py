@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: waSclthu11
+Credit: The precalc programming project python tutoial does this, and I remember roughly what it was. I didn't rewatch the tutorial when doing this.
 
 Assignment:
 
