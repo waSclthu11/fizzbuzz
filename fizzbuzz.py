@@ -45,8 +45,8 @@ Fizz
 Buzz
 """
 num = int(input("How many numbers shall we print? "))
-x = int(input("For multiples of which number shall we print 'Fizz'? "))
-y = int(input("For multiples of which number shall we print 'Buzz'? "))
+x = int(input("For multiples of what number shall we print 'Fizz'? "))
+y = int(input("For multiples of what number shall we print 'Buzz'? "))
 for w in range(1, num+1):
     if (w%x==0 and w%y==0):
         print("FizzBuzz")
